@@ -1,0 +1,8 @@
+[
+    {"id":1,"name":"Pen","price":100},
+    {"id":2,"name":"Pencil","price":50},
+    {"id":3,"name":"Book","price":200},
+    {"id":4,"name":"Ruler","price":30}
+
+
+]

@@ -1,0 +1,48 @@
+<!--
+<p>
+  product works!
+  {{name}},{{id}}
+
+  Product price : {{displayDetails()}}
+  {{discount()}}</p>
+  <p>
+  Printing objects
+  <!--{{product.id}},{{product.name}},{{product.price}}-->
+  <!--
+</p>
+Property binding
+<div [align]="position">
+<h1>Align Right!!</h1>
+
+</div>
+<div>
+<button [disabled]="disval" value="Submit">Submit</button>
+
+</div>
+<div>Company Name: <input type="text" (keyup)="onType($event)">
+Hello {{compName}}
+</div>
+<img [src]="imgsrc"><br>
+Array of objects - Http :
+<div *ngFor="let product of products"><br>
+Name: {{product.name}}<br>
+Id: {{product.id}}<br>
+Price:{{product.price}}<br>
+</div>
+<br>
+<h3>2 Way binding</h3>
+Type Employee Name:<input type="text" [(ngModel)]='empName'><br>
+ReType Emp Name   :<input type="text" value={{empName}}>
+
+<h1  [ngStyle]="{'font-size':mysize,'color':mycolor,'background-color':mybgcolor}">
+  Attribute directives</h1>
+  <h1 [ngClass]="{class1:cone,class2:ctwo}">Attribute Ng Class</h1>
+<button (click)="toggle()">Toggle Styles</button>
+<h1>Pipes</h1><br>
+<p>{{empName | uppercase}}</p>
+<p>{{"250000" | currency :'INR'}}</p>
+<p>{{today | date : 'medium'|uppercase}}</p>
+<h1>Customized Pipe</h1><br>
+
+<p>{{prdprice | mypipe : threshold}}</p>
+-->
